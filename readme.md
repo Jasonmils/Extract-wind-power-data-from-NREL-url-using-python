@@ -1,9 +1,9 @@
 # NREL - wind power datasets in the US
-It is a national record of all the wind farms including features like power, wind speed, density, etc. However, it might be hard to doownload to total datasets from the [NREL website]([Eastern and Western Data Sets | Grid Modernization | NREL](https://www.nrel.gov/grid/eastern-western-wind-data.html)), due to the fact that the total data size reaches the 2.9TB, which is not memory-friendly.
+It is a national record of all the wind farms including features like power, wind speed, density, etc. However, it might be hard to doownload to total datasets from the [NREL website](https://www.nrel.gov/grid/eastern-western-wind-data.html), due to the fact that the total data size reaches the 2.9TB, which is not memory-friendly.
 
 Hence, we have developed a python script to extract the specific wind data from the url.
 
-First, we need to download [pywtk]([NREL/pywtk (github.com)](https://github.com/NREL/pywtk)) package. In our settings we use anaconda prompt to download  [pywtk]([NREL/pywtk (github.com)](https://github.com/NREL/pywtk)).
+First, we need to download [pywtk](https://github.com/NREL/pywtk) package. In our settings we use anaconda prompt to download  [pywtk](https://github.com/NREL/pywtk).
 ``` 
 cd D:\pywtk  # it should be changed to your own directory of the downloaded github zip from the pywtk link
 python setup.py install

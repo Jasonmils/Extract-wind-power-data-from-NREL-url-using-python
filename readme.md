@@ -26,7 +26,8 @@ Selected_idx = ['NW', 'SE']
 Selected_region = dict(zip(Selected_idx, Selected_loc))
 ```
 In this cases, we plot 3792 wind farm data in California, with color varing with the id of each farm. (e.g., farm id: 12305)
-![windfarm](.\fig\CA_windfram.png)
+
+![windfarm](fig\CA_windfram.png)
 
 Then, we can access the basic information by using the `get_nc_data_from_url` function.
 ``` python
